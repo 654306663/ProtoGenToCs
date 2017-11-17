@@ -1,0 +1,6 @@
+1.打开Proto2Cs目录
+2.将Proto文件放入Proto目录
+3.双击运行Proto2Cs.bat
+4.打开Cs目录即可查看批量转好的cs文件
+
+制作人：网虫虫
