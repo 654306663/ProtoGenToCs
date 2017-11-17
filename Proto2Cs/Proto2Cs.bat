@@ -15,7 +15,7 @@ echo -------------------------------------------------------------
 for /f "delims=" %%i in ('dir /b "%SOURCE_PATH%\*.proto"') do (
     
     echo ×ª»»£º%%i to %%~ni.cs
-    %PROTOGEN_PATH% -i:%SOURCE_PATH%\%%i -o:%TARGET_PATH%\%%~ni.cs -ns:ProtoBuf
+    %PROTOGEN_PATH% -i:%SOURCE_PATH%\%%i -o:%TARGET_PATH%\%%~ni.cs -ns:ProtoData
     
 )
 
